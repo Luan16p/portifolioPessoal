@@ -114,7 +114,6 @@ img {
 }
 
 footer {
-    margin-top: 50px;
     background: rgb(107, 62, 179);
 }
 
@@ -134,4 +133,8 @@ footer {
 
 .ann > a:hover {
     text-decoration: underline;
+}
+
+.spsmt {
+    background: linear-gradient(180deg, #fff,rgb(107, 62, 179));
 }
