@@ -1,0 +1,338 @@
+/* ----- Format ----- */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    color: #fff;
+}
+
+/* ----- Main ----- */
+
+.main {
+    height: 98vh;
+    background: url(../img/bgg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top-bar {
+    width: 100%;
+    position: fixed;
+}
+
+.nav-bar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.logo {
+    font-size: 28px;
+    font-family: 'webkt-logo';
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    margin: 12px;
+}
+
+.nav-list a {
+    border-radius: 20px;
+    padding: 7px 13px;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.nav-list a:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu span {
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    padding: 7px 13px;
+    transition: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+.mobile-menu span:hover {
+    background: #fff;
+    color: blueviolet;
+}
+
+/* ----- Center ----- */
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 60%;
+}
+
+.align h2 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.align p {
+    color: #fff;
+    font-size: 20px;
+    margin: 17px 0;
+}
+
+.align button {
+    margin: 6px 0;
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background: rgba(107, 62, 179, 0);
+    color: #ffff;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.align button:hover {
+    background: #fff;
+    color: rgb(107, 62, 179);
+}
+
+/* ----- About us ----- */
+
+._center_ {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 440px;
+}
+
+.center-abt {
+    width: 70%;
+}
+
+.center-abt h2 {
+    margin: 15px 0;
+    font-size: 45px;
+    color: rgb(107, 62, 179);
+}
+
+.center-abt p {
+    margin: 20px 0;
+    font-size: 23px;
+    color: rgb(107, 62, 179);
+}
+
+.center-abt button {
+    padding: 10px 30px;
+    border: 0;
+    margin-bottom: 20px;
+    background:rgb(107, 62, 179);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-abt button:hover {
+    background:rgb(98, 65, 151);
+}
+
+/* ----- Curriculum ----- */
+
+.center_curr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+} 
+
+.curriculum {
+    background: rgb(107, 62, 179);
+}
+
+.kt {
+    width: 100%;
+}
+
+.kt h2, .kt p, .kt button, .kt a, .kt li, .kt span {
+    color: #fff;
+}
+
+.kt h2 {
+    margin: 35px 0;
+}
+
+.lists-kt {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.logo-dp, .logo-fa, .logo-tec {
+    margin-top: 15px;
+}
+
+.text-left {
+    width: 50%;
+}
+
+.text-left p {
+    margin: 40px 0;
+    margin-left: 10px;
+    text-align: center;
+} 
+
+.text-left button {
+    display: -ms-grid;
+    margin: 15px 0;
+    padding: 10px 30px;
+    width: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    background:rgb(107, 62, 179);
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3555s;
+}
+
+.text-left button:hover {
+    background: #fff;
+    color: rgb(107, 62, 179);
+    border: 1px solid rgb(107, 62, 179);
+}
+
+#btn-download-curriculum {
+    margin-right: 20px;
+}
+
+#btn-goto-linkedin {
+    margin-right: 20px;
+}
+
+.text-left button:hover {
+    border: 1px solid #fff;
+}
+
+.img-right {
+    float: right;
+}
+
+.img-curr {
+    user-select: none;
+    height: 380px;
+    width: 100%;
+    animation: floatFade 3s ease-in-out infinite;
+    cursor: pointer;
+    transition: 0.34s;
+}
+
+/* ----- Contact ----- */
+
+.ctc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    place-content: center;
+    place-items: center;
+    align-items: center;
+    height: 300px;
+    gap: 50px;
+}
+
+form { nav-down: current; }
+
+.ctc h2 {
+    margin: 50px 0;
+    color: rgb(107, 62, 179);
+    font-size: 40px ;
+}
+
+.ctc input[type=email] {
+    width: 70%;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(107, 62, 179);
+    outline: 0;
+    border-radius: 25px;
+    margin: 20px 0;
+    transition: 0.3s;
+}
+
+.ctc input[type=email]:focus {
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgb(48, 47, 47);
+}
+
+.ctc input[type=submit] {
+    width: 29%;
+    height: 50px;
+    background: rgb(107, 62, 179);
+    border: 0;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s ;
+}
+.ctc input[type=submit]:hover {
+    box-shadow: 1px 1px 6px rgb(48, 47, 47);
+}
+
+footer {
+    margin-top: 50px;
+    background: rgb(107, 62, 179);
+}
+
+.center_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.tdr, .ann {
+    font-weight: bold;
+}
+
+.ann > a:hover {
+    text-decoration: underline;
+}

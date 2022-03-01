@@ -1,0 +1,33 @@
+@keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes floatFade {
+    0% {
+      transform: translateY(16px);
+    }
+
+    25% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(16px);
+    }
+
+    75% {
+      transform: translateY(0px);
+    }
+
+    100% {
+      transform: translateY(16px);
+    }
+
+  }

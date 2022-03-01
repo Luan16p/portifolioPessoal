@@ -1,0 +1,118 @@
+@media (max-width: 999px) {
+    .top-bar {
+        position: fixed;
+        background: rgb(107, 62, 179);
+    }
+    .nav-list {
+      position: absolute;
+      position: fixed;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: rgb(107, 62, 179);
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  .nav-list.active {
+    transform: translateX(0);
+  }
+
+@media screen and (max-width: 550px) {
+  .align h2 {
+    font-size: 28px;
+    margin: 0px 5;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  #set_time {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  ._center_ {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 977px) {
+  .center-abt p {
+    font-size: 17px
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .lists-kt {
+    display: grid;
+    flex-direction: column-reverse;
+  }
+
+  .center_curr {
+    height: 700px;
+  }
+
+  .img-right {
+    display: none;
+  }
+
+  .text-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .text-left p {
+    text-align: justify;
+  }
+
+  .align-textLeft {
+    width: 70%;
+  }
+
+  .text-left button {
+    width: 50vw;
+  }
+
+  #btn-download-curriculum {
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 801px) {
+  .text-left p {
+    margin: 0px 0 !important;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .ctc input[type=submit] {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .ctc input[type=email] {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .ctc input[type=submit], .ctc input[type=email] {
+    display: block;
+  }
+}
