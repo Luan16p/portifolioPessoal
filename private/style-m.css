@@ -110,7 +110,7 @@ img {
     }
     .manutention {
         flex-wrap: wrap-reverse;
-        animation-duration: 0.3s;
+        animation-duration: 3s;
     }
 }
 
