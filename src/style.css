@@ -156,7 +156,7 @@ span {
     color: rgb(107, 62, 179);
 }
 
-.center-abt button {
+.center-abt a {
     padding: 10px 30px;
     border: 0;
     margin-bottom: 20px;
@@ -166,7 +166,7 @@ span {
     cursor: pointer;
 }
 
-.center-abt button:hover {
+.center-abt a:hover {
     background:rgb(98, 65, 151);
 }
 
