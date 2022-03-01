@@ -29,6 +29,6 @@ function set_time() {
     }
 }
 
-function seeMore() {
+function manutention() {
     window.location.replace("./private/manutencao.htm")
 }
