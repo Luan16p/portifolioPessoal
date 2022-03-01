@@ -30,5 +30,5 @@ function set_time() {
 }
 
 function seeMore() {
-    window.location.replace("")
+    window.location.replace("./private/manutencao.htm")
 }
