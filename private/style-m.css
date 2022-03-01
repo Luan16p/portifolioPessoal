@@ -104,12 +104,14 @@ img {
     font-size: 20px;
 }
 
-@media screen and (max-width: 737px) {
+@media screen and (max-width: 767px) {
     img {
+        transition: 0.5s;
         animation-duration: 3s;
         width: 140px;
     }
     .manutention {
+        transition: 0.5s;
         flex-wrap: wrap-reverse;
         animation-duration: 3s;
     }
