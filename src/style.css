@@ -40,6 +40,7 @@ span {
 .top-bar {
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .nav-bar {
@@ -250,6 +251,7 @@ span {
 
 .img-right {
     float: right;
+    z-index: 456;
 }
 
 .img-curr {
